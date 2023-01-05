@@ -1,0 +1,7 @@
+.searchTab{
+    cursor: pointer;
+}
+
+.active{
+    color: red;
+}

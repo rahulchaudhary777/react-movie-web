@@ -1,0 +1,22 @@
+.header{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    font-size: 2.7vw;
+    background-color: #39445a;
+    color: white;
+    box-shadow: 0px 1px 5px black;
+    padding-bottom: 10px;
+    font-family: 'Jost', sans-serif;
+    z-index: 100;
+    cursor: pointer;
+}
+
+@media (max-width:1000px){
+    .header{
+        padding-top: 2%;
+        font-size: 4vw;
+    }
+}
