@@ -15,7 +15,7 @@ const SingleContent = (props) => {
       <b className="title">{props.title}</b>
       <span className="subTitle">
         {" "}
-        {props.media === "tv" ? "Tv Series" : "movie"}
+        {props.media === "tv" ? "Tv Series" : "Movie"}
         <span className="subTitle"> {props.date}</span>
       </span>
     </div>

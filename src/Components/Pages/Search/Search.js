@@ -66,6 +66,8 @@ const Search = () => {
           </Button>
         </div>
       </ThemeProvider>
+      <div style={{width:"100vw" ,display:"flex" ,justifyContent:"center"}}>
+
       <Tabs
         value={type}
         textColor="primary"
@@ -76,9 +78,11 @@ const Search = () => {
         }}
         style={{ paddingBottom: "20px", marginTop: "10px" }}
       >
-        <Tab style={{ width: "50%", fontSize: "16px" }} label="Search Movies" />
-        <Tab style={{ width: "50%", fontSize: "16px" }} label="Search Series" />
+        <Tab style={{ width: "50%", fontSize: "16px",marginRight:"10px" }} label="Search Movies" />
+        <Tab style={{ width: "50%", fontSize: "16px" ,marginLeft:"8px"}} label="Search Series" />
       </Tabs>
+      </div>
+
       <div
         style={{
           display: "flex",
